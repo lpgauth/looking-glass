@@ -1,0 +1,8 @@
+{application, 'looking_glass', [
+	{description, "An experimental Erlang/Elixir/BEAM profiler tool"},
+	{vsn, "0.1.0"},
+	{registered, [looking_glass_sup]},
+	{applications, [kernel,stdlib,runtime_tools,lz4]},
+	{mod, {looking_glass_app, []}},
+	{env, []}
+]}.
